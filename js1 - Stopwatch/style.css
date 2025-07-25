@@ -1,0 +1,42 @@
+body {
+  background-color: skyblue;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.6rem;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+#seconds, #tens {
+  font-size: 2em;
+}
+
+button {
+  border-radius: 5px;
+  background-color: blue;
+  color: #fff;
+  border: 1px solid #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 10px 10px;
+  width: 100px;
+  margin: 10px;
+  outline: none;
+}
+
+button:hover {
+  transition: .3s;
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: blue;
+}
