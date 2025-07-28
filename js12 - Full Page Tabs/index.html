@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full Page Tabs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
+  <button class="tablink" onclick="openPage('News', this, 'green')">News</button>
+  <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+  <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+  <div id="Home" class="tabcontent">
+    <h3>Red</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, eius?</p>
+  </div>
+  <div id="News" class="tabcontent">
+    <h3>Green</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus beatae accusantium nihil, odio dolore voluptates?</p>
+  </div>
+  <div id="Contact" class="tabcontent">
+    <h3>Blue</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo corrupti est adipisci voluptatem sint cum qui dolore?</p>
+  </div>
+  <div id="About" class="tabcontent">
+    <h3>Orange</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis commodi dolores quis at officia impedit voluptate provident, accusamus totam quos.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

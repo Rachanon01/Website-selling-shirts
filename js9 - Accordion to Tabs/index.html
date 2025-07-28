@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accordion to Tabs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="accordion">
+    <section class="accordion-tabs">
+      <button class="accordion-tab accordion-active" data-actab-group="0" data-actab-id="0">Tab 1</button>
+      <button class="accordion-tab" data-actab-group="0" data-actab-id="1">Tab 2</button>
+      <button class="accordion-tab" data-actab-group="0" data-actab-id="2">Tab 3</button>
+      <button class="accordion-tab" data-actab-group="0" data-actab-id="3">Tab 4</button>
+      <button class="accordion-tab" data-actab-group="0" data-actab-id="4">Tab 5</button>
+    </section>
+    <section class="accordion-content">
+      <article class="accordion-item accordion-active" data-actab-group="0" data-actab-id="0">
+        <h4 class="accordion-item__label">Tab 1</h4>
+        <div class="accordion-item__container">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit perferendis voluptates itaque minima quis eum? Excepturi pariatur et voluptates nisi eos nihil velit ullam explicabo quis! Quisquam, velit. Assumenda, ut.</p>
+        </div>
+      </article>
+      <article class="accordion-item" data-actab-group="0" data-actab-id="1">
+        <h4 class="accordion-item__label">Tab 2</h4>
+        <div class="accordion-item__container">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repudiandae vitae ut obcaecati. Unde enim labore incidunt doloremque adipisci voluptate.</p>
+        </div>
+      </article>
+      <article class="accordion-item" data-actab-group="0" data-actab-id="2">
+        <h4 class="accordion-item__label">Tab 3</h4>
+        <div class="accordion-item__container">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quos, ab sint voluptatem doloribus unde.</p>
+        </div>
+      </article>
+      <article class="accordion-item" data-actab-group="0" data-actab-id="3">
+        <h4 class="accordion-item__label">Tab 4</h4>
+        <div class="accordion-item__container">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo tempora aperiam sit accusamus accusantium commodi doloremque eaque eveniet, modi libero error hic perferendis doloribus, veniam quasi quis ea? Nulla, nisi.</p>
+        </div>
+      </article>
+      <article class="accordion-item" data-actab-group="0" data-actab-id="4">
+        <h4 class="accordion-item__label">Tab 5</h4>
+        <div class="accordion-item__container">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, consequatur!</p>
+        </div>
+      </article>
+    </section>
+  </section>
+
+  <p>Scale down the browser to view the mobile version.</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
